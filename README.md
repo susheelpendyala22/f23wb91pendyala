@@ -3,10 +3,10 @@
 updated readme file
 
 Access for live version of this project on render: [Render Link](https://assignmentpug.onrender.com/)
-## Class: flower
-The "flower" class represents items with attributes determined by the letter "f."
+## Class: Animal
+Items with qualities denoted by the letter "f" are represented by the "Animal" class.
  
-### Attributes:
+#### Attributes:
 - `animalName` (string)
 - `animalCost` (number)
 - `description` (string)
