@@ -1,0 +1,15 @@
+extends layout
+block content
+  h1= title
+  p Welcome to the #{title} page
+ 
+ 
+  div.container-fluid
+ 
+   div.row
+    - let results = [{ animalName: "Dog",animalCost: 1000, description: "Dog will peel outside" },{ animalName: "Cat",animalCost: 2000, description: "Cats will be always cat" },{ animalName: "Fish",animalCost: 1500, description: "Fish is a protien" }]
+      each item in results
+       div.col-sm-2
+         h3 Animal Name: #{item.animalName}
+         p Animal Cost: $#{item.animalCost}
+         p Description: #{item.description}
